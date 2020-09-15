@@ -1,1 +1,4 @@
-# PhasedLSTM_tf2
+# Phased LSTM Tensorflow 2.0
+
+
+<img src="images/mnist.png">

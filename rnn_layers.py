@@ -1,9 +1,4 @@
 import tensorflow as tf
-from tensorflow.keras.layers import Layer, LSTMCell
-from tensorflow.compat.v1 import constant_initializer
-
-
-import tensorflow as tf
 from tensorflow import constant_initializer
 
 
@@ -99,4 +94,3 @@ class PhasedLSTM(tf.keras.layers.Layer):
         new_c = k * cs + (1 - k) * prev_cs
 
         return new_h, (new_h, new_c)
-
